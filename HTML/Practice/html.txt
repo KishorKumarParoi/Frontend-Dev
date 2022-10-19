@@ -1,0 +1,34 @@
+<p> paragraph
+<i> italic
+<b> bold
+bold and strong aren't same
+small child's childish attitude is bold 
+
+anchor tag <a href = " "> google a jaou </a>
+img tag : <img src= "kkp.png"> 
+
+list item
+unordered list
+<ul>
+ <li> biriyani </li>
+ <li> Komla </li>
+</ul>
+
+ordered list
+<ol>
+   <li> biriyani </li>
+   <li> Komla </li>
+</ol>
+
+/----input tag-----/
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+most common input tag
+button,checkbox,email,image,password,text,submit,radio,
+
