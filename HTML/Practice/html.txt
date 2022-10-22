@@ -30,5 +30,8 @@ ordered list
 </form>
 
 most common input tag
-button,checkbox,email,image,password,text,submit,radio,
+button,checkbox,email,image,password,text,submit,radio
+
+html entities
+&nbsp for spacing 
 

@@ -1,0 +1,3 @@
+style - inline, external, internal
+
+blog
