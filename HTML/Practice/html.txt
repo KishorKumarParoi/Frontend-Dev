@@ -34,4 +34,5 @@ button,checkbox,email,image,password,text,submit,radio
 
 html entities
 &nbsp for spacing 
+navigation to "about.html" page 
 
