@@ -4,38 +4,84 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>I am Learning Positioning</title>
         <style>
+            .swimming {
+                position: relative;
+                /* background: lightcyan;
+                height: 5000px; */
+            }
             .swimming div {
-                border: 2px dashed orange;
-                height: 100px;
-                width: 400px;
-                padding: 10px;
-                margin: 30px;
+                border: 2px dashed palegoldenrod;
+                width: 200px;
             }
             #ring {
                 position: relative;
-                top: 30px;
-                left: 40px;
+                top: -40px;
+                z-index: 2;
+            }
+            #boy {
+                position: relative;
+                top: 50px;
+                z-index: 5;
+            }
+            #water {
+                position: relative;
+                z-index: 1;
+                top: -113px;
+            }
+            .dummy {
+                height: 150px;
+                width: 250px;
+                background: lightcoral;
             }
         </style>
     </head>
     <body>
         <section>
-            <h1>This is My Header</h1>
-            <h1>I am learning Positioning</h1>
-            <h1>I will become Pro in future</h1>
+            <h1>
+                This is Positioning</h1>
+            <h1>I have a aspiration for learning CSS Positioning</h1>
+            <h1>I wil go deeper and deeper
+            </h1>
         </section>
-
         <section class="swimming">
-            <div>
-                <img src="pseudo-box/images/boy.svg" alt="">
-            </div>
-            <div>
-                <img id="ring" src="pseudo-box/images/ring.svg" alt="">
-            </div>
-            <div>
-                <img src="pseudo-box/images/water.svg" alt=""></body>
-        </div>
+            <div><img id="boy" src="pseudo-box/images/boy.svg" alt=""></div>
+            <div><img id="ring" src="pseudo-box/images/ring.svg" alt=""></div>
+            <div><img id="water" src="pseudo-box/images/water.svg" alt=""></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+        </section>
+        <h1>This is Seperate</h1>
+        <section>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+        </section>
     </body>
-</html></section></body></html>
+</html>
