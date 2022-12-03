@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: gray;
+}
+
+section {
+    width: 450px;
+    height: 650px;
+    margin-left: 420px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.img img {
+    width: 88%;
+    margin-left: 8px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-top: 20px;
+    border-radius: 50px;
+    margin-bottom: 2px;
+}
+
+.article h1 {
+    padding: 25px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.article p {
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
+}
