@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .baksho {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            /* justify-content:flex-start; */
+            /* align-items: stretch; */
+            /* justify-content: space-between;  */
+            /* align-content: space-around; */
+            width: 800px;
+            height: 500px;
+            background-color: lime;
+        }
+
+        .box {
+            font-size: 2rem;
+            text-align: center;
+            width: 100px;
+            /* height: 100px; */
+            background-color: aqua;
+            border: 2px solid blue;
+        }
+
+        #box-4 {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Let's Learn about Flexbox</h1>
+    <div class="baksho">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div id="box-4" class="box">Box-4</div>
+    </div>
+</body>
+
+</html>
